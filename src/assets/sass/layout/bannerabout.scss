@@ -1,0 +1,19 @@
+.bannerabout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 223px;
+    margin-bottom: 30px;
+
+    border-radius: 25px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../img/BannerAbout.png'); 
+    background-position: center;
+    background-size: cover;
+
+    @media screen and (max-width: 400px) {
+        height: 111px;
+        border-radius: 10px;
+    }
+}
+

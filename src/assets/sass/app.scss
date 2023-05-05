@@ -1,0 +1,16 @@
+@import "base/_reset.scss";
+@import "abstracts/_variable.scss";
+@import "base/main.scss";
+
+//components
+@import "layout/_header.scss";
+@import "layout/banner.scss";
+@import "layout/bannerabout.scss";
+@import "layout/slide.scss";
+@import"layout/collapse.scss";
+@import "layout/_footer.scss";
+
+//pages
+@import"layout/notFoundPages.scss";
+@import "layout/aboutcontent.scss";
+@import 'layout/accomodation.scss'

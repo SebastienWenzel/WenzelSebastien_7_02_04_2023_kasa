@@ -1,9 +1,18 @@
-import React from 'react';
+import Aboutdata from '@/data/Aboutdata'
+import BannerAbout from '@/components/banner/BannerAbout';
+import Collapse from '@/components/collapse/Collapse';
+
 
 const About = () => {
+
     return (
-        <div>
-            About
+        <div className='aboutContainer'>
+            <BannerAbout/>
+            {Aboutdata.map(data =>{ 
+            return (
+                    <Collapse  title={data.title} content={data.content}/>        
+            )}
+            )}
         </div>
     );
 };

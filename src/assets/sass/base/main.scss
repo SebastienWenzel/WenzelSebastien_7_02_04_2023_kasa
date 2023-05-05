@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@400;500;700&family=Shrikhand&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+.Layout{
+    height: 100vh;
+}
+.mainHome {
+    min-height: 60%;
+    padding: 0 100px;
+    @media screen and (max-width: 735px) {
+        padding: 0 20px;
+    }
+}
