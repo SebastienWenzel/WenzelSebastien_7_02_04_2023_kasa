@@ -1,12 +1,9 @@
-import { useEffect, useState } from 'react';
-import { Navigate, useParams } from 'react-router-dom';
+import { useState, useEffect  } from 'react';
+import {  useParams, Navigate } from 'react-router-dom';
 import Logement from '@/data/Logement'
 import Slider from '@/components/slider/Slider';
 import Collapse from '@/components/collapse/Collapse';
 import Rating from '@/components/rating/Rating';
-
-
-
 
 const Accomodation = () => {
 
@@ -20,12 +17,14 @@ const Accomodation = () => {
     const dataLogement = Logement.filter(data => data.id ===  idLogement);
     //Définie la liste d'images contenues dans picture de l'entrée du tableau avec pour id celle de l'url    
     useEffect(() => {
-		const dataLogement = Logement.filter(data => data.id === idLogement);
-		setImageSlider(dataLogement[0].pictures);
-	}, [idLogement]);
+        const dataLogement = Logement.filter(data => data.id === idLogement);
+        if (dataLogement.length > 0) {
+            setImageSlider(dataLogement[0].pictures);
+        }
+    }, [idLogement]);
     //redirection
-    if (!dataLogement) {
-        return <Navigate to="/404Page"/>;
+    if (dataLogement.length ===  0) {
+        return <Navigate to="/404"/>;
     }
 
     const name = dataLogement[0].host.name.split(' ');
@@ -70,8 +69,6 @@ const Accomodation = () => {
                 </div>
             </main>
         </div>
-        
-    
     );
 };
 

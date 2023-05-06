@@ -12,16 +12,12 @@ function Collapse({title, content}) {
                 <h3 className='collapse__title' onClick={() => setToggle(!toggle)} >
                     {title}
                     <img 
-                        className={toggle ? 'arrow arrow_up' : 'arrow arrow_down'} 
+                        className={toggle ? 'arrow arrow_down' :'arrow arrow_up' } 
                         src={arrow} 
                         alt="show content" 
                     />
                 </h3>
-                {/* Expression conditionnelle 
-                Si content est un tableau, chaque élément du tableau est affiché avec
-                une balise p et une clé unique key en utilisant la méthode map(). Sinon,
-                le contenu est simplement affiché sans boucler sur chaque élément.
-                */}
+
                 <div className={toggle ? 'collapse__content' : 'collapse__content--hidden'}>
                     {Array.isArray(content) ? content.map((item, index) => {
                         return (
