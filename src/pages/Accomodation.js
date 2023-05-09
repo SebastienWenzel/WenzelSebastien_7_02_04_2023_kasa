@@ -10,12 +10,12 @@ const Accomodation = () => {
     // Déclare un tableau image slider
     const [imageSlider, setImageSlider] = useState([]);
 
-    // Définie idAccomodation avec l'id située dans l'url
+    // Défini idAccomodation avec l'id située dans l'url
     const idLogement = useParams('id').id;
 
-    // Définie dataLogement en trouvant la donnée id du tableau data égale celle située dans l'url
+    // Défini dataLogement en trouvant la donnée id du tableau data égale celle située dans l'url
     const dataLogement = Logement.filter(data => data.id ===  idLogement);
-    //Définie la liste d'images contenues dans picture de l'entrée du tableau avec pour id celle de l'url    
+    //Défini la liste d'images contenues dans picture de l'entrée du tableau avec pour id celle de l'url    
     useEffect(() => {
         const dataLogement = Logement.filter(data => data.id === idLogement);
         if (dataLogement.length > 0) {
@@ -65,7 +65,6 @@ const Accomodation = () => {
                     <div className="accomodation__collapse__item">
                         <Collapse title={'Équipements'} content={equipments}/>
                     </div>
-
                 </div>
             </main>
         </div>

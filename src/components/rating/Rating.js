@@ -6,7 +6,7 @@ function Rating({rating}) {
   return (
     <div className="accomodation__content--host-star">
       {starValue.map((data, index) => {
-        return parseInt(rating, 10) >= data ? (
+        return (rating) >= data ? (
           <img key={index} src={orangestar} alt="star" />
         ) : (
           <img key={index} src={greystar} alt="star" />

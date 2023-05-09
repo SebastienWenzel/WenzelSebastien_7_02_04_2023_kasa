@@ -3,7 +3,7 @@ import arrow from '@/assets/img/arrow.png';
 
 
 function Collapse({title, content}) {
-    //Definie la valeur de l'état à false à l'objet activated
+    //Defini la valeur de l'état à false
     const [toggle, setToggle] = useState(false);
 
     return (
