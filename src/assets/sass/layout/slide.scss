@@ -10,7 +10,9 @@
   margin: 30px auto;
   border-radius: 25px;
   @media screen and (max-width: 650px){
-    height: 250px;    
+    height: 250px;   
+    margin: 0;
+    margin-bottom: 10px; 
   }
 }
 .image {
