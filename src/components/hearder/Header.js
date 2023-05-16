@@ -1,16 +1,31 @@
-import { Link } from 'react-router-dom'
-import Logo from '@/assets/img/Logo.svg'
+import { NavLink , Link } from 'react-router-dom'
+import Logo from '@/assets/img/Logo.svg';
 
-const Header = () => {
+function Header (){ 
+
     return (
         <header>
-            <Link to="/home">
+            <Link to="/">
                 <img src={Logo} alt="logo Kasa" className="logo" />
             </Link>
-            <nav>
-                <ul className='nav'>
-                    <li><Link to="/home">Accueil</Link></li>
-                    <li><Link to="/about">A Propos</Link></li>
+            <nav >
+                <ul className="navbar">
+                    <li>
+                        <NavLink
+                        to="/" 
+                        className={({ isActive, isPending }) =>
+                        isPending ? "pending" : isActive ? "active" : "inactive"}>
+                            Accueil
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                        to="/about"
+                        className={({ isActive, isPending }) =>
+                        isPending ? "pending" : isActive ? "active" : "inactive"}>
+                            A propos
+                        </NavLink>
+                    </li>
                 </ul>
             </nav>
         </header>

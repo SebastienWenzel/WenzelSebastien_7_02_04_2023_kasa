@@ -7,10 +7,10 @@
   align-items: center;
   background-position: center;
   background-size: cover;
-  margin: 43px auto;
+  margin: 30px auto;
   border-radius: 25px;
   @media screen and (max-width: 650px){
-    height: 200px;    
+    height: 250px;    
   }
 }
 .image {
@@ -27,7 +27,8 @@
     cursor: pointer;
     user-select: none;
     @media screen and (max-width: 650px){
-      top: 32%;   
+      top: 40%;
+      width: 20px;   
     }
   }
   &_L{
@@ -38,7 +39,8 @@
     cursor: pointer;
     user-select: none;
     @media screen and (max-width: 650px){
-      top: 32%;   
+      top: 40%;
+      width: 20px;    
     }
   }
   
@@ -52,4 +54,7 @@
   color: white;
   font-weight: 500;
   font-size: 1.2rem;
+  @media screen and (max-width: 650px){
+    font-size: 0.8rem;
+  }
 }

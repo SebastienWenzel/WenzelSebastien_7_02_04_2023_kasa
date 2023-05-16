@@ -3,10 +3,11 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 40px 100px;
-   height: 20%;
+   height: 15%;
     @media screen and (max-width: 735px) {
-        padding: 20px 20px
+        padding: 0 20px
     }
+    
     .logo {
         width: 210px;
 
@@ -17,30 +18,27 @@ header {
     }
 }
 
-.nav {
+.navbar {
     display: flex;
-    li {
-        margin-left: 50px;
-        text-align: right;
-        @media screen and (max-width: 500px) {
-            margin-left: 12px;
-        }
-
-        a {
+        li{
+            margin-left: 50px;
+            text-align: right;
             color: $orange;
+            font-size: 22px;
             font-weight: 500;
-            font-size: 24px;
-
             @media screen and (max-width: 735px) {
-                font-size: 20px;
+                font-size: 18px;
                 
             }
             @media screen and (max-width: 500px) {
+                margin-left: 20px;
                 font-size: 14px;
             }
-            &:hover {
-                text-decoration-line: underline;
+            .active {
+                text-decoration: underline $orange;
+            }            
+            .inactive {    
+                font-weight: 500;
             }
-        }
-    }
+        }    
 }

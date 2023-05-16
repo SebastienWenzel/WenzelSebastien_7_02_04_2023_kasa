@@ -1,29 +1,32 @@
 .notfound{
-    padding-bottom: 40px;
     color: $orange;
-    min-height: 60vh;
+    min-height: 65%;
     &__elements{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        @media screen and (max-width: 768px) {
-            padding-top: 80px;   
-        }
-       
         &--title{
             font-weight: 700;
             font-size: 18rem;
-            @media screen and (max-width: 768px) {
-                font-size: 8.75rem;    
+            margin-top: 5px;
+                  
+            @media screen and (max-width: 700px) {
+                font-size: 8.75rem;
+                margin-bottom: 2rem;
+                margin-top:50px;
+                  
             }
         }
         &--content{
             font-weight: 500;
-            font-size: 2.2rem;
+            font-size: 1.8rem;
             text-align: center;
-            @media screen and (max-width: 768px) {
-                font-size: 1.5rem;
+            margin-bottom: 3rem;
+            @media screen and (max-width: 700px) {
+                font-size: 1.4rem;
+                padding: 0 20px; 
+                
             }
         }
         &--backhome{
@@ -33,10 +36,12 @@
             font-weight: 500;
             font-size: 1.2rem;
             margin-top:30px;
-            &:hover {
-                text-decoration-line: underline;
+            text-decoration-line: underline;
+
+            &:hover{
+                opacity: 0.8;;
             }
-            @media screen and (max-width: 768px) {
+            @media screen and (max-width: 700px) {
                 font-size: 1rem;
             }
         }
