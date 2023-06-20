@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import { Layout, Home, About, Accomodation, NotFound} from '@/pages'
+import { Layout, Home, About, Accomodation, NotFound} from '../pages'
 
 const RoutePage = () => {
     

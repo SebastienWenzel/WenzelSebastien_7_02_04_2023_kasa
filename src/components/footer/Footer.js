@@ -1,4 +1,4 @@
-import logo from '@/assets/img/LogoFooter.png'
+import logo from '../../assets/img/LogoFooter.png'
 const Footer = () => {
     return (
             <footer className='footer'>

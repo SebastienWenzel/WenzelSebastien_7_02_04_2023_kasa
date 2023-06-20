@@ -1,5 +1,5 @@
-import Logement from '@/data/Logement'
-import AccomodationCard from '@/components/accomodationcard/AccomodationCard'
+import Logement from '../../data/Logement';
+import AccomodationCard from '../accomodationcard/AccomodationCard';
 
 const AccomodationGallery = () => {
     return (

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import arrowL from '@/assets/img/arrowleft.png'
-import arrowR from '@/assets/img/arrowright.png'
+import arrowL from '../../assets/img/arrowleft.png'
+import arrowR from '../../assets/img/arrowright.png'
 
 
 const Slider = ({imageSlider}) => {

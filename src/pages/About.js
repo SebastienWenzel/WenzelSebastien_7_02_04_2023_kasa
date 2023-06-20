@@ -1,6 +1,6 @@
-import Aboutdata from '@/data/Aboutdata'
-import BannerAbout from '@/components/banner/BannerAbout';
-import Collapse from '@/components/collapse/Collapse';
+import Aboutdata from '../data/Aboutdata'
+import BannerAbout from '../components/banner/BannerAbout';
+import Collapse from '../components/collapse/Collapse';
 
 
 const About = () => {

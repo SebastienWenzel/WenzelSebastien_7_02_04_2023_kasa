@@ -1,9 +1,9 @@
 import { useState, useEffect  } from 'react';
 import {  useParams, Navigate } from 'react-router-dom';
-import Logement from '@/data/Logement'
-import Slider from '@/components/slider/Slider';
-import Collapse from '@/components/collapse/Collapse';
-import Rating from '@/components/rating/Rating';
+import Logement from '../data/Logement'
+import Slider from '../components/slider/Slider';
+import Collapse from '../components/collapse/Collapse';
+import Rating from '../components/rating/Rating';
 
 const Accomodation = () => {
 

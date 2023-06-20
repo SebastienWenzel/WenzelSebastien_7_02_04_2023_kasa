@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import arrow from '@/assets/img/arrow.png';
+import arrow from '../../assets/img/arrow.png';
 
 
 function Collapse({title, content}) {
