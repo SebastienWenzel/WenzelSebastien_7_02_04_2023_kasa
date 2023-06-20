@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/WenzelSebastien_7_02-04-2023-kasa/static/css/main.ec6a2a4b.css",
+    "main.js": "/WenzelSebastien_7_02-04-2023-kasa/static/js/main.6171885e.js",
+    "static/media/BannerAbout.png": "/WenzelSebastien_7_02-04-2023-kasa/static/media/BannerAbout.abab3f12f4cb82f1dfa1.png",
+    "static/media/Banner.png": "/WenzelSebastien_7_02-04-2023-kasa/static/media/Banner.d00ae7dd3ef927bb988d.png",
+    "static/media/Logo.svg": "/WenzelSebastien_7_02-04-2023-kasa/static/media/Logo.979aa5825f31d4da6548275030c38409.svg",
+    "static/media/greystar.svg": "/WenzelSebastien_7_02-04-2023-kasa/static/media/greystar.68fd8a1ead5375bd59bb6ae0b633ffd3.svg",
+    "static/media/orangestar.svg": "/WenzelSebastien_7_02-04-2023-kasa/static/media/orangestar.30b8963e66a47777ef47296f505567be.svg",
+    "index.html": "/WenzelSebastien_7_02-04-2023-kasa/index.html",
+    "main.ec6a2a4b.css.map": "/WenzelSebastien_7_02-04-2023-kasa/static/css/main.ec6a2a4b.css.map",
+    "main.6171885e.js.map": "/WenzelSebastien_7_02-04-2023-kasa/static/js/main.6171885e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec6a2a4b.css",
+    "static/js/main.6171885e.js"
+  ]
+}
