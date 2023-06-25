@@ -4,4 +4,4 @@ npm install
 
 //démarage 
 
-npm start
+npm starto

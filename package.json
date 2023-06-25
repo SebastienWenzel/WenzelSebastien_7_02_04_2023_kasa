@@ -1,5 +1,5 @@
 {
-  "homepage": "https://xsenikx.github.io/WenzelSebastien_7_02-04-2023-kasa",
+  "homepage": "https://xsenikx.github.io/WenzelSebastien_7_02_04_2023_kasa",
   "name": "kasa",
   "version": "0.1.0",
   "private": true,
@@ -18,10 +18,10 @@
   "scripts": {
     "start": "react-scripts start",
     "starto": "craco start",
-    "build": "react-scripts build",
+    "build": "craco build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy":"gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

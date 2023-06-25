@@ -8,8 +8,8 @@ const RoutePage = () => {
             {/* route PARENT */}
             <Route element={<Layout/>}>
                 {/* route ENFANT */}
-                {/*optionnel <Route index element={<Home/>} /> */}
-                <Route path="/" element={<Home/>} />
+                <Route index element={<Home/>} />
+                <Route path="/WenzelSebastien_7_02_04_2023_kasa" element={<Home/>} />
                 <Route path="/about" element={<About/>} />
                 <Route path="/accomodation/:id" element={<Accomodation/>} />
                 <Route path="*" element={<NotFound/>} />
